@@ -3,8 +3,8 @@ package dev.lvstrng.argon.module;
 import dev.lvstrng.argon.utils.EncryptedString;
 
 public enum Category {
-	COMBAT(EncryptedString.of("Combat")),
 	MISC(EncryptedString.of("Misc")),
+	COMBAT(EncryptedString.of("Combat")),
 	RENDER(EncryptedString.of("Render")),
 	CLIENT(EncryptedString.of("Client"));
 	public final CharSequence name;
