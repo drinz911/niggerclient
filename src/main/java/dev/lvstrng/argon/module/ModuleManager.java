@@ -28,6 +28,7 @@ public final class ModuleManager implements ButtonListener {
 		//Combat
 		add(new AimAssist());
 		add(new AnchorMacro());
+		add(new SafeAnchor();
 		add(new AutoCrystal());
 		add(new AutoDoubleHand());
 		add(new AutoHitCrystal());
